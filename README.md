@@ -16,7 +16,7 @@ If you get errors (like 403 error codes), you can use the uup downloader with a 
 1. Execute all steps aboce up to step 6
 2. Run python makeoutput.py -i valid.json -o aria2.txt
 3. Upload that file somewhere in the internet
-4. Copy that link and replace the ttps://uupdump.net/get.php[...] one in the file uup_download_windows.cmd with it
+4. Copy that link and replace the https://uupdump.net/get.php[...] one in the file uup_download_windows.cmd with it
 5. Delete the UUPs folder and restart the process. Enjoy!
 
 If you are getting module not found errors, do pip install colorama and pip install requests
