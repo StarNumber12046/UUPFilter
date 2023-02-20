@@ -16,6 +16,7 @@ valid = []
 for entry in j:
     if filter(entry["name"]):
         valid.append(entry)
+        print("Found valid entry. " + entry["name"])
 
 f = open(p.output, "w")
 json.dump(valid, f)
